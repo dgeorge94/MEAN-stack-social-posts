@@ -1,0 +1,23 @@
+mat-form-field {
+  width: 100%;
+}
+
+mat-spinner {
+  margin: auto;
+}
+
+mat-card {
+  width: 30rem;
+
+}
+
+.center-container {
+  background: none!important;
+  background-color: white;
+  display: flex;
+  margin: auto;
+  margin-top: 5rem;
+  height: 40%;
+  align-items: center;
+  flex-direction: column;
+}

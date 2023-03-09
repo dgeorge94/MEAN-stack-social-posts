@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "start:server": "nodemon server.js",
-    "postinstall": "ngbuild --output-path dist"
+    "postinstall": "ng build --output-path dist"
   },
   "private": true,
   "dependencies": {
@@ -31,7 +31,7 @@
     "jsonwebtoken": "^9.0.0",
     "mongodb": "^5.1.0",
     "mongoose": "^7.0.0",
-    "mongoose-unique-validator": "^3.1.0",
+    
     "multer": "^1.4.5-lts.1",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
